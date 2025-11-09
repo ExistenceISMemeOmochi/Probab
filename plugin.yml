@@ -1,0 +1,13 @@
+name: Probab
+version: 1.0
+main: com.yourname.probab.Probab
+api-version: 1.21.8 # 使用するPaperMCのバージョンに合わせる
+commands:
+  probab:
+    description: Minecraftの確率を操作するメインコマンド
+    usage: /probab <GravelToFlint> [0-100]
+    permission: probab.admin
+permissions:
+  probab.admin:
+    description: Probabプラグインの管理コマンド実行権限
+    default: op
